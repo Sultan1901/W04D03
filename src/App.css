@@ -8,7 +8,7 @@ body{
 .h1home{
     text-align: center;
     font-size: 8rem;
-    text-shadow: 2px 2px 8px #FF0000;
+    text-shadow: 2px 2px 8px #ff6600;
 }
 .imgbody{
     height: 100px;
@@ -18,7 +18,7 @@ body{
 }
 .crd img
 {
-    width: 316px;
+    width: 311px;
     height: 155px;
     margin-top: 9px;
     

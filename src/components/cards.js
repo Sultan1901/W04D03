@@ -18,22 +18,15 @@ const cards = () => {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Buraidah.jpg/500px-Buraidah.jpg",
     },
   ];
-  
-///////////////////////////////////
- 
-  
-  ////////////////////////////////////
+
   return (
-
-    /////////////////////////////////////
-
-    ////////////////////////////////
-    <div className="crd">
+    <div className= 'crd'>
       {card.map((item) => {
         return (
-          <div className="vv">
+          <div className='vv'>
+            
             <h1>{item.name}</h1>
-            <img src={item.img} />
+            <img src={item.img}/>
           </div>
         );
       })}
