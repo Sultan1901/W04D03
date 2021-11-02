@@ -1,0 +1,58 @@
+body{
+    background-color: burlywood;
+    
+}
+.h1{
+    text-align: center;
+}
+.h1home{
+    text-align: center;
+    font-size: 8rem;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+.imgbody{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: 550px;
+}
+.crd img
+{
+    width: 316px;
+    height: 155px;
+    margin-top: 9px;
+    
+}
+.crd
+{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-size: 15px;
+    border: crimson;
+    text-align:center;
+    
+    
+}
+.vv
+{
+    width: 25%;
+border: 1px solid rgb(37, 34, 34);
+justify-content: center;
+margin-top: 100px;
+margin-left: 10px;
+
+
+}
+
+.li
+{
+
+}
+ul{
+    
+  font-family: fantasy;
+  display: flex;
+  justify-content: space-around;
+  color: brown;
+}
