@@ -1,6 +1,6 @@
 import React from "react";
-
-const cards = () => {
+import {useHistory} from 'react-router-dom';
+const Cards = () => {
   const card = [
     {
       id: 1,
@@ -18,15 +18,18 @@ const cards = () => {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Buraidah.jpg/500px-Buraidah.jpg",
     },
   ];
-
+  let history = useHistory()
+const Onecard = (id)=>{
+  history.push(`/card/${id}`)
+}
   return (
     <div className= 'crd'>
       {card.map((item) => {
         return (
-          <div className='vv'>
-            
+          <div className='vv' onClick={()=>{Onecard(item.id)}}>
+
             <h1>{item.name}</h1>
-            <img src={item.img}/>
+            <img src={item.img }/>
           </div>
         );
       })}
@@ -34,4 +37,4 @@ const cards = () => {
   );
 };
 
-export default cards;
+export default Cards;

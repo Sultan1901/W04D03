@@ -47,10 +47,10 @@ margin-left: 10px;
 
 .li
 {
-
+text-decoration: none;
 }
 ul{
-    
+    text-decoration: none;
   font-family: fantasy;
   display: flex;
   justify-content: space-around;
